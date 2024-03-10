@@ -39,14 +39,14 @@ Before verifying any transactions, you need to populate your database with trans
 
 1. **Run the populate_db.py script:**
    ```bash
-    python3 populate_db.py
+    python3 src/populate_db.py
 
 ### Verifying Transactions
 To verify a transaction, use the 'verify_transaction.py' script, passing the transaction_id as an argument:
 
 1. **Run the verify_transaction.py script:**
    ```bash
-    python3 verify_transaction.py <transaction_id>
+    python3 src/verify_transaction.py <transaction_id>
 
 The system will analyze the specified transaction and output the result, either approving the transaction or denying it with a reason based on the risk score.
 
