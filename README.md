@@ -12,8 +12,6 @@ Before you begin, ensure you have the following installed on your local machine:
 
 - Python 3.x
 - PostgreSQL
-- psycopg2 library (Python PostgreSQL adapter)
-- pandas library (for data manipulation)
 
 ### Installation
 
@@ -53,11 +51,8 @@ To verify a transaction, use the 'verify_transaction.py' script, passing the tra
 The system will analyze the specified transaction and output the result, either approving the transaction or denying it with a reason based on the risk score.
 
 ### Features
-Device Validation
-Chargeback Check
-Transaction Amount Check
-Transaction Time Check
-User Behavior Analysis
-Contributing
-Contributions are welcome. Please fork the repository, make your changes, and submit a pull request.
-
+- Device Validation
+- Chargeback Check
+- Transaction Amount Check
+- Transaction Time Check
+- User Behavior Analysis
