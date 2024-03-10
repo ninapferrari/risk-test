@@ -39,13 +39,14 @@ Before you begin, ensure you have the following installed on your local machine:
 ### Populating the Database
 Before verifying any transactions, you need to populate your database with transaction data:
 
-**Run the populate_db.py script:**
+1. **Run the populate_db.py script:**
    ```bash
     python3 populate_db.py
 
 ### Verifying Transactions
 To verify a transaction, use the 'verify_transaction.py' script, passing the transaction_id as an argument:
 
+1. **Run the verify_transaction.py script:**
    ```bash
     python3 verify_transaction.py <transaction_id>
 
