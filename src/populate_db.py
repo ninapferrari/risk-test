@@ -2,7 +2,7 @@ from db import conn
 import pandas
 from psycopg2.extras import execute_values
 
-transactions_file = '../data/transactional-sample.csv'
+transactions_file = 'data/transactional-sample.csv'
 df = pandas.read_csv(transactions_file, dtype={'device_id': str})
 
 cursor = conn.cursor()
